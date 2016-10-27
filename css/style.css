@@ -1,0 +1,108 @@
+@charset "utf-8";
+body{ width: 100%;height: 100%;font:1.3rem '源真ゴシック','微軟正黑體', 'sans-serif'; color:#fff; background-color: #313131;}
+a,a:hover,a:visited,a:focus{outline: none; text-decoration: none;-webkit-transition: all ease .3s;-moz-transition: all ease .3s;-o-transition: all ease .3s;transition: all ease .3s;}
+.wraper{ max-width: 100%; margin: 0 auto; padding: 50px 100px;}
+
+/*------------------------------------------------------------header*/
+#header{height: 680px; position: relative;}
+.navbar-toggle{margin-top: -5px; padding: 0; border: 0; font-size: 3rem; margin-right: 20px;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: inherit;}
+nav{padding-top: 15px; padding-bottom: 5px;}
+.navbar-default {background-color: #313131; border-color: transparent;}
+.navbar-brand{padding: 0;}
+#menu ul li a{display: block; color: #fff; margin-top: 15px;padding-top: 0px;font-weight: 500; letter-spacing: 1px;}
+#menu ul li a:hover{color: #b2b2b2;}
+#header h1{;font-size:2.4rem;font-weight: bold; letter-spacing: 3px;}
+#header .slogan{padding: 0px;margin-top: 200px;}
+#header .slogan hr{border-top: 2px solid #fff;}
+#header .slogan p.chi{font-size: 1.7rem; letter-spacing: 1px; margin: 40px 0 0 0;}
+#header .slogan p.eng{font-size: 1.2rem; letter-spacing: 1px; margin-top: 5px;}
+.btn:focus,.btn:active {outline: none !important;}
+.btn-default{border: 1px solid #fff; border-radius: 20px; background-color: transparent; color: #fff; padding: 2px 24px;display:block;}
+.btn-view{width: 120px;position: absolute; right:50%;margin-right: -60px;margin-top: 100px;}
+
+.title h2{ font:700 2rem 'roboto', sans-serif; letter-spacing: 2px;}
+.title h3{ font-family: '源真ゴシック','微軟正黑體', sans-serif; font-size: 1.8rem; letter-spacing: 1px; margin-top: 15px;}
+h2{margin-top:0px;}
+
+
+/*------------------------------------------------------------about*/
+#about{background-color: #e5e5e5;padding-bottom: 0px;}
+#about h2, #about h3{color: #c30d23;}
+#about hr{border-top: 1px solid #c30d23;}
+#about .info{width:80%; margin: 80px auto; background-color: #ffffff; color: #c30d23;}
+#about .aboutblock{background-color: #ffffff; color:#c30d23; max-width: 800px; margin: 60px auto;padding-bottom: 90px;
+                   -webkit-box-shadow: 7px 9px 20px -5px rgba(0,0,0,0.75);
+                   -moz-box-shadow: 7px 9px 20px -5px rgba(0,0,0,0.75);
+                   box-shadow: 7px 9px 20px -5px rgba(0,0,0,0.75);}
+.aboutblock .row{margin: auto 0px;}
+.aboutblock .list-UP{height: 115px; text-align: center;font-size: 2rem; font-weight: 600;border-bottom: 2px solid #c30d23;padding-top: 50px;letter-spacing: 1px;}
+.aboutblock .list-MID{height:98px;}
+.aboutblock .list-L{border-right:1px solid #c30d23;}
+.aboutblock .list-L img{width: 140px; height: 140px;margin:0 auto;}
+.aboutblock .list-R{padding: 0px;}
+.aboutblock .list-R p{padding: 10px; border-bottom: 1px solid #c30d23;margin:0px; font-family: 'roboto';line-height: 1.6rem;letter-spacing: 1px;}
+.aboutblock .list-BTM{height: 10px; border-top: 2px solid #c30d23; margin-top: 40px;}
+
+/*-----------------------------------------------------------services*/
+#services{background-color: #626262; height: auto; padding-bottom: 50px;}
+#services .icon-box{margin-top: 50px;}
+#services .icon h3{font: 400 1.7rem '微軟正黑體', 'sans-serif';text-align: center;}
+#services .icon h4{font: 700 1.7rem 'roboto', 'sans-serif'; letter-spacing: 1px;text-align: center;}
+#services img{width: 80px; height: 100px; margin: 30px auto;}
+#services p{text-align: center; font-size: 1.3rem;margin-bottom: 20px;}
+
+/*------------------------------------------------------------work*/
+#work{background-color: #434343; height: auto; padding-bottom: 100px;}
+
+.work-area{margin-top: 90px;}
+.work-box{margin-top: 40px;letter-spacing: 0.5px;}
+.work-name{display: inline-block; width:220px; position: relative; font-size: 1.3rem; top:10px;}
+.work-cover{opacity: 1;}
+.work-cover:hover{opacity: .7;}
+.work-info{position:absolute; right:10px; top:-10px; text-align: right;}
+.modal-content{color:#313131;}
+
+
+/*------------------------------------------------------------contact*/
+#contact{background-color: #e5e5e5; height: 460px;}
+#contact .title{color: #313131;}
+#contact .title hr{border-top: 1px solid #313131;}
+.contact-row{color: #313131;margin-top: 40px;}
+.subtitle{margin-bottom: 30px;}
+span.title{font-size :1.4rem; font-weight: 700;letter-spacing: 1px;}
+span.subtitle{font-size :1.5rem; font-weight: 500;letter-spacing: 1px;}
+p.text{font-size: 1.4rem; font-weight: 400;letter-spacing: 0.8px;line-height: 22px;}
+
+
+/*------------------------------------------------------------footer*/
+footer{background-color: #313131; height: 198px;}
+footer p{text-align: center; margin:0 auto;padding-top: 30px;}
+
+
+/*---------------------------------------------------------------------------------*/
+@media (min-width:1200px){
+    .container{width:90%;}
+}
+
+@media (max-width:768px){
+    .navbar-brand{width: 300px; padding:0 20px;}
+    .aboutblock .list-L{border-right:0px}
+    .aboutblock .list-BTM{height:100px;}
+    .aboutblock .list-R p{text-align: center;}
+    .wraper{ max-width: 960px; margin: 0 auto; padding: 40px 30px;}
+    .work-area{margin-top: 40px;}
+}
+
+@media (max-width:480px) {
+    .navbar-brand{width: 210px; padding:5px 0 0 10px;}
+    .btn-view{display: none;}
+    .aboutblock .list-L{border-right:0px; border-bottom: 2px solid #c30d23;}
+    .aboutblock .list-MID{height: auto;height: 120px;}
+    .aboutblock .list-BTM{border-top: 0px;}
+    .work-area{margin-top: 20px;}
+    .work-box{margin-top: 10px;}
+    .work-name, .work-info, .work-box hr{display: none; }
+}
+
+
